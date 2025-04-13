@@ -1,0 +1,58 @@
+.pagination {
+  /* style for the whole pagination  */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.pagination a {
+  /* style for the anchor */
+  color: black;
+  border: 1px solid #ddd;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.currentPage a {
+  /* style to indicate the current page  */
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+.unittype-radio {
+  display: flex; 
+  justify-content: space-between;
+}
+
+a, router-link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.titlefont {
+  font-family: 'Playfair Display', serif;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.catcard {
+  border: none
+}
